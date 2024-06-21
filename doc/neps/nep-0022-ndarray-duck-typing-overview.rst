@@ -217,7 +217,7 @@ an arbitrary object to convert itself into an array),
 ``__array_ufunc__`` (allows third-party objects to support ufuncs like
 ``np.exp``).
 
-`NEP 16 <https://github.com/numpy/numpy/pull/10706>`_ took a
+:ref:`NEP 16`_ took a
 different approach: we need a duck-array equivalent of
 ``asarray``, and it proposed to do this by defining a version of
 ``asarray`` that would let through objects which implemented a new

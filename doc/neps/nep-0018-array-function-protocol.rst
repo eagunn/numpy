@@ -141,7 +141,7 @@ The type of ``types`` is intentionally vague:
 instead for performance reasons. In any case, ``__array_function__``
 implementations should not rely on the iteration order of ``types``, which
 would violate a well-defined "Type casting hierarchy" (as described in
-`NEP-13 <https://www.numpy.org/neps/nep-0013-ufunc-overrides.html>`_).
+:ref:`NEP-13`).
 
 Example for a project implementing the NumPy API
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -300,7 +300,7 @@ are valid then which has precedence?
 
 For the most part, the rules for dispatch with ``__array_function__``
 match those for ``__array_ufunc__`` (see
-`NEP-13 <https://www.numpy.org/neps/nep-0013-ufunc-overrides.html>`_).
+:ref:`NEP-13`).
 In particular:
 
 -  NumPy will gather implementations of ``__array_function__`` from all

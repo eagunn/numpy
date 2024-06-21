@@ -350,7 +350,7 @@ References and Footnotes
    this NEP as an example) or licensed under the `Open Publication License`_.
 
 .. _Open Publication License: https://www.opencontent.org/openpub/
-.. _`NEP 38`: https://numpy.org/neps/nep-0038-SIMD-optimizations.html
+.. :ref:`NEP 38`
 .. _`gh-20866`: https://github.com/numpy/numpy/pull/20866
 .. _`gh-21057`: https://github.com/numpy/numpy/pull/21057
 .. _`gh-23096`: https://github.com/numpy/numpy/pull/23096

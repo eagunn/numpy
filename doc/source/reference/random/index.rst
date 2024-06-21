@@ -92,6 +92,16 @@ See :ref:`legacy` for information on the legacy infrastructure,
 :ref:`new-or-different` for information on transitioning, and :ref:`NEP 19
 <NEP19>` for some of the reasoning for the transition.
 
+TEST ONLY -- do not commit with the next lines in place
+:ref:`NEP 19 <NEP19>`
+:ref:`NEP 19 <NEP19>`_
+:ref:`NEP 19`_
+:ref:`NEP 19 Random number generator policy`
+`https://numpy.org/neps/nep-0019-rng-policy.html#nep-19-random-number-generator-policy`
+:doc:`NEP19`
+
+END TEST ONLY
+
 Design
 ------
 

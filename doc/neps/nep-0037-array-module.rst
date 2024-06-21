@@ -64,7 +64,7 @@ There are two broad ways in which NEP-18 has fallen short of its goals:
 
    - **Array creation** routines (e.g., ``np.arange`` and those in
      ``np.random``) need some other mechanism for indicating what type of
-     arrays to create. `NEP 35 <https://numpy.org/neps/nep-0035-array-creation-dispatch-with-array-function.html>`_
+     arrays to create. :ref:`NEP 35`
      proposed adding optional ``like=`` arguments to functions without
      existing array arguments. However, we still lack any mechanism to
      override methods on objects, such as those needed by

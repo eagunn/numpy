@@ -141,7 +141,7 @@ Here's the short summary, complete TOC links are below:
 
    If your change introduces a deprecation, make sure to discuss this first on
    GitHub or the mailing list first. If agreement on the deprecation is
-   reached, follow :ref:`NEP 23 deprecation policy <NEP23>`  to add the deprecation.
+   reached, follow :ref:`NEP 23 <NEP23>`  to add the deprecation.
 
 6. Cross referencing issues
 
@@ -185,7 +185,7 @@ Stylistic guidelines
 
    import numpy as np
 
-* For C code, see :ref:`NEP 45 <NEP45>`.
+* For C code, see :ref:`NEP 45`.
 
 
 Test coverage
